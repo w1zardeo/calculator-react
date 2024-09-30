@@ -80,7 +80,7 @@ const Calculator = () => {
         </div>
         <div className="button-row">
           <CalculatorButton shape="circle" color="gray" text="4" handleClick={(char) => handleNumberClick('4')} />
-          <CalculatorButton shape="circle" color=gray" text="5" handleClick={(char) => handleNumberClick('5')} />
+          <CalculatorButton shape="circle" color="gray" text="5" handleClick={(char) => handleNumberClick('5')} />
           <CalculatorButton shape="circle" color="gray" text="6" handleClick={(char) => handleNumberClick('6')} />
           <CalculatorButton shape="circle" color="orange" text="-" handleClick={() => handleOperationClick('-')} />
         </div>
